@@ -40,7 +40,7 @@
 									<option value="" disabled>Choose User Type</option>
 									<option value="admin" selected>Admin</option>
 									<option value="hod" selected>HOD</option>
-									<option value="lecturer" selected>lecturer</option>
+									<option value="lecturer" selected>Lecturer</option>
 								</select>							
 								<input type="text" id="username" name="username" value="" class="form-control mb4" placeholder="Username" required /> <br>
 
