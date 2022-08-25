@@ -18,7 +18,7 @@ function clean($data)
 }
 
 if($_SERVER["REQUEST_METHOD"] == "post") {
-	if (empty($_POST['username'])){
+	if (empty($_POST["username"])){
 		$usernameErr = "Username is required.";
 	} else {
 		$username = clean($_POST["username"]);

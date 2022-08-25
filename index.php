@@ -1,3 +1,12 @@
+<?php
+include 'include/controller.php';
+if(isset($_SESSION['user_name'])) {
+	if(($_SESSION['user_type']) == "admin") {
+		header("location: admin/index.php");
+	}
+}
+?>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -42,9 +51,11 @@
 									<option value="hod" selected>HOD</option>
 									<option value="lecturer" selected>Lecturer</option>
 								</select>							
-								<input type="text" id="username" name="username" value="" class="form-control mb4" placeholder="Username" required /> <br>
+								<input type="text" id="username" name="username" value="<?php echo $username; ?>" class="form-control mb4" placeholder="Username" required /><br> 
+								<?php echo $usernameErr?> 
 
-								<input type="password" id="password name="password" value="" class="form-control mb4" placeholder="Password" required />
+								<input type="password" id="password" name="password" value="" class="form-control mb4" placeholder="Password" required />
+								<?php echo $passwordErr?> 
 
 								<div class="d-flex">
 									<div>
