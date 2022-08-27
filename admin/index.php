@@ -70,7 +70,7 @@ if (empty($_SESSION['user_name'])) {
 		<!-- Navbar -->
 
 		<!-- Sidebar Navigation -->
-		<div id="slide-out" class="slide-nav fixed sn-bg-4 ">
+		<div id="slide-out" class="side-nav fixed sn-bg-4 ">
 			<ul class="custom-scrollbar list-unstyled">
 				<!-- Logo -->
 				<li class="logo-sn waves-effect">
@@ -178,102 +178,102 @@ if (empty($_SESSION['user_name'])) {
 	<!-- Main Layout -->
 	<main>
 		<div class="container-fluid">
-		<section class="card card-cascade narrower mb-5"> 
-			<!-- Grid Row -->
-			<div class="row">
-				<!-- Grid Column -->
-				<div class="col-md-12">
-					<!-- Panel Header -->
-					<div class="view view-cascade py-3 gradient-card-header info-color-dark">
-						<h5 class="mb-0">Total Records Data</h5>
-					</div>
-					<!-- Panel Header -->
-					<!-- Panel Content -->
-					<div class="card-body card-body-cascade">
-						<div class="row">
-							<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
-								<!-- Panel Header -->
-								<div class="view view-cascade py-5 gradient-card-header" style="background-color:#df4510;">
-									<h5 class="mb-0">ADMIN</h5>
-									<h6 class="mb-0">0</h6>
+			<section class="card card-cascade narrower mb-5">
+				<!-- Grid Row -->
+				<div class="row">
+					<!-- Grid Column -->
+					<div class="col-md-12">
+						<!-- Panel Header -->
+						<div class="view view-cascade py-3 gradient-card-header info-color-dark">
+							<h5 class="mb-0">Total Records Data</h5>
+						</div>
+						<!-- Panel Header -->
+						<!-- Panel Content -->
+						<div class="card-body card-body-cascade">
+							<div class="row">
+								<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
+									<!-- Panel Header -->
+									<div class="view view-cascade py-5 gradient-card-header" style="background-color:#df4510;">
+										<h5 class="mb-0">ADMIN</h5>
+										<h6 class="mb-0">0</h6>
+									</div>
+									<!-- Panel Header -->
 								</div>
-								<!-- Panel Header -->
+
+								<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
+									<!-- Panel Header -->
+									<div class="view view-cascade py-5 gradient-card-header primary-color-dark">
+										<h5 class="mb-0">HOD</h5>
+										<h6 class="mb-0">0</h6>
+									</div>
+									<!-- Panel Header -->
+								</div>
+
+								<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
+									<!-- Panel Header -->
+									<div class="view view-cascade py-5 gradient-card-header success-color-dark">
+										<h5 class="mb-0">STAFF</h5>
+										<h6 class="mb-0">0</h6>
+									</div>
+									<!-- Panel Header -->
+								</div>
+
+								<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
+									<!-- Panel Header -->
+									<div class="view view-cascade py-5 gradient-card-header danger-color-dark">
+										<h5 class="mb-0">STUDENT</h5>
+										<h6 class="mb-0">0</h6>
+									</div>
+									<!-- Panel Header -->
+								</div>
+
+								<div class="card-body card-body-cascade">
+									<div class="row">
+										<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
+											<!-- Panel Header -->
+											<div class="view view-cascade py-5 gradient-card-header" style="background-color:#df4510;">
+												<h5 class="mb-0">ADMIN</h5>
+												<h6 class="mb-0">0</h6>
+											</div>
+											<!-- Panel Header -->
+										</div>
+
+										<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
+											<!-- Panel Header -->
+											<div class="view view-cascade py-5 gradient-card-header primary-color-dark">
+												<h5 class="mb-0">HOD</h5>
+												<h6 class="mb-0">0</h6>
+											</div>
+											<!-- Panel Header -->
+										</div>
+
+										<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
+											<!-- Panel Header -->
+											<div class="view view-cascade py-5 gradient-card-header success-color-dark">
+												<h5 class="mb-0">STAFF</h5>
+												<h6 class="mb-0">0</h6>
+											</div>
+											<!-- Panel Header -->
+										</div>
+
+										<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
+											<!-- Panel Header -->
+											<div class="view view-cascade py-5 gradient-card-header danger-color-dark">
+												<h5 class="mb-0">STUDENT</h5>
+												<h6 class="mb-0">0</h6>
+											</div>
+											<!-- Panel Header -->
+										</div>
+
+									</div>
+									<!-- Panel Content -->
+								</div>
+								<!-- Grid Column -->
 							</div>
-
-							<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
-								<!-- Panel Header -->
-								<div class="view view-cascade py-5 gradient-card-header primary-color-dark">
-									<h5 class="mb-0">HOD</h5>
-									<h6 class="mb-0">0</h6>
-								</div>
-								<!-- Panel Header -->
-							</div>
-
-							<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
-								<!-- Panel Header -->
-								<div class="view view-cascade py-5 gradient-card-header success-color-dark">
-									<h5 class="mb-0">STAFF</h5>
-									<h6 class="mb-0">0</h6>
-								</div>
-								<!-- Panel Header -->
-							</div>
-
-							<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
-								<!-- Panel Header -->
-								<div class="view view-cascade py-5 gradient-card-header danger-color-dark">
-									<h5 class="mb-0">STUDENT</h5>
-									<h6 class="mb-0">0</h6>
-								</div>
-								<!-- Panel Header -->
-							</div> 
-
-							<div class="card-body card-body-cascade">
-						<div class="row">
-							<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
-								<!-- Panel Header -->
-								<div class="view view-cascade py-5 gradient-card-header" style="background-color:#df4510;">
-									<h5 class="mb-0">ADMIN</h5>
-									<h6 class="mb-0">0</h6>
-								</div>
-								<!-- Panel Header -->
-							</div>
-
-							<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
-								<!-- Panel Header -->
-								<div class="view view-cascade py-5 gradient-card-header primary-color-dark">
-									<h5 class="mb-0">HOD</h5>
-									<h6 class="mb-0">0</h6>
-								</div>
-								<!-- Panel Header -->
-							</div>
-
-							<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
-								<!-- Panel Header -->
-								<div class="view view-cascade py-5 gradient-card-header success-color-dark">
-									<h5 class="mb-0">STAFF</h5>
-									<h6 class="mb-0">0</h6>
-								</div>
-								<!-- Panel Header -->
-							</div>
-
-							<div class="col-md-3" style="margin-bottom: 20px; margin-top:20px;">
-								<!-- Panel Header -->
-								<div class="view view-cascade py-5 gradient-card-header danger-color-dark">
-									<h5 class="mb-0">STUDENT</h5>
-									<h6 class="mb-0">0</h6>
-								</div>
-								<!-- Panel Header -->
-							</div>
-
-					</div>
-					<!-- Panel Content -->
-				</div>
-				<!-- Grid Column -->
-			</div>
-			<!-- Grid Row -->
-		</section> 
-	</div>
-	<!-- Container-fluid -->
+							<!-- Grid Row -->
+			</section>
+		</div>
+		<!-- Container-fluid -->
 
 	</main>
 	<!-- Main Layout -->
