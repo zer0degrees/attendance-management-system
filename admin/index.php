@@ -1,7 +1,7 @@
 <?php 
 
 	include '../include/controller.php';
-	$session_useername = $_SESSION['user_name'];
+	$session_username = $_SESSION['user_name'];
 	if(empty($_SESSION['user_name'])) {
 		header("location:../index.php");
 	}
@@ -63,13 +63,114 @@
 							<a class="dropdown-item" href="#"> Logout</a>
 						</div>
 				</li>
-
-				
-
 			</ul>
 			<!-- Links -->
 		</nav>
 		<!-- Navbar -->
+
+		<!-- Sidebar Navigation -->
+		<div id="slide-out" class="slide-nav fixed sn-bg-4 ">
+			<ul class="custom-scrollbar list-unstyled" >
+				<!-- Logo -->
+				<li class="logo-sn waves-effect">
+					<div class="text-center">
+						<a href="#" class="p1-0">
+							<h4 style="color:#FFFFFF;">Student Attendance System</h4>
+						</a>
+					</div>
+				</li>
+				<!-- Logo -->
+				<!-- Search Form -->
+				<li>
+					<form class="search-form" role="search" >
+						<div class="md-form my-0 waves-light" >
+							<input type="text" name="form-control py-2" placeholder="Search..." >
+							
+						</div>
+						
+					</form>
+				</li>
+				<!-- Search Form -->
+				<!-- Side Navigation Links -->
+				<li>
+					<ul class="collapsible collapsible-accordion" >
+						<li>
+							<a href="index.php">
+								<i class="fa fa-home"></i> Dashboard
+							</a>
+						</li>
+						<li>
+							<a class="collapsible-header waves-effect arrow-r">
+								<i class="fa fa-chevron-right"></i> User Management
+								<i class="fa fa-angle-down rotate-icon"></i>
+							</a>
+							<div class="collapsible-body">
+								<ul>
+									<li>
+										<a href="#" class="waves-effect"> Admin</a>
+									</li>
+									<li>
+										<a href="#" class="waves-effect"> HOD</a>
+									</li>
+									<li>
+										<a href="#" class="waves-effect"> STAFF</a>
+									</li>
+								</ul>
+						</li>
+						<li>
+							<a class="collapsible-header waves-effect arrow-r">
+								<i class="fa fa-chevron-right"></i> System Management
+								<i class="fa fa-angle-down rotate-icon"></i>
+							</a>
+							<div class="collapsible-body">
+								<ul>
+									<li>
+										<a href="#" class="waves-effect"> Department</a>
+									</li>
+									<li>
+										<a href="#" class="waves-effect"> Courses</a>
+									</li>
+									<li>
+										<a href="#" class="waves-effect"> Subject</a>
+									</li>
+								</ul>
+						</li>
+						<li>
+							<a class="collapsible-header waves-effect arrow-r">
+								<i class="fa fa-chevron-right"></i> Student Management
+								<i class="fa fa-angle-down rotate-icon"></i>
+							</a>
+							<div class="collapsible-body">
+								<ul>
+									<li>
+										<a href="#" class="waves-effect"> Student</a>
+									</li>
+								</ul>
+						</li>
+						<li>
+							<a class="collapsible-header waves-effect arrow-r">
+								<i class="fa fa-chevron-right"></i> Attendance Management
+								<i class="fa fa-angle-down rotate-icon"></i>
+							</a>
+							<div class="collapsible-body">
+								<ul>
+									<li>
+										<a href="#" class="waves-effect"> View Attendance</a>
+									</li>
+								</ul>
+						</li>
+					</ul>
+				</li>
+
+				<!-- Side Navigation Links -->
+
+			</ul>
+			<!-- Mask -->
+			<div class="sidenav-bg mask-strong" > </div>
+			<!-- Mask -->
+		</div>
+		<!-- Sidebar Navigation -->
+
 	</header>
 	<!-- Main Navigation -->
 

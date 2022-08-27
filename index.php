@@ -41,7 +41,7 @@ if (isset($_SESSION['user_name'])) {
 					<div class="col-md-6">
 						<h3 class="text-center">STUDENT ATTENDANCE SYSTEM</h3>
 						<div style="background-color:  #FFFFFF; margin-top: 30px;">
-							<!-- Default Form COntent -->
+							<!-- Default Form Content -->
 							<form action="" method="post" class="text-center border border-light p-5">
 								<p class="h4 mb-4">Sign in</p>
 
@@ -72,7 +72,7 @@ if (isset($_SESSION['user_name'])) {
 								<!-- Sign in Button -->
 
 							</form>
-							<!-- Default Form COntent -->
+							<!-- Default Form Content -->
 						</div>
 					</div>
 					<div class="col-md-3">
