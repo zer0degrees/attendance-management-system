@@ -1,13 +1,13 @@
 <?php
-$servername="localhost";
+$servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "attendancesystem";
+$dbname = "attendancedb";
 
 // Create Connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check Connection
+//Check Connection
 if($conn->connect_error) {
-	die("connection failed: ". $conn->connect_error);
+	die("Connection failed:". $conn->connect_error);
 }
